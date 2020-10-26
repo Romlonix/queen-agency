@@ -70,7 +70,45 @@ nav a {
   background: linear-gradient(45deg,
   rgba(93,1,254,1) 0%,
   rgba(1,31,254,1) 100%);
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
 }
+#sectiPorta p {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 33.333%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 3px;
+}
+#sectiPorta p :nth-child(3){
+  color: white;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+#sectiPorta i {
+  position: absolute;
+  right: 10px;
+  font-size: 1.5em !important;
+  font-weight: 300 !important;
+  width: 44px;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color:rgba(1,31,254,1);
+}
+#sectiPorta span {
+  padding: 10px;
+  width: 100%;
+  font-size: 1.5em;
+  color:rgba(1,31,254,1);
+  font-weight: normal;
+}
+
 /*section Portafolio------------------------ */
 /*section servicios------------------------ */
 #sectiServi {
