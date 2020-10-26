@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	line-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  /* outline: 1px solid lime; */
+}
+body {
+  background-color: black;
+}
+/* header----------------------------------- */
+header > div {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 10px;
+}
+header > div > h1 {
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+  font-size: 1.5em;
+  text-align: center;
+}
+header > div i {
+  font-size: 1.5em !important;
+  font-weight: 300 !important;
+  width: 44px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+nav {
+  display: flex;
+  transition: all .5s;
+  position: absolute;
+  z-index: 1;
+  flex-direction: column;
+  background-color: black;
+}
+nav a {
+  /* height: 0px; */
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+#menuIcon {
+  cursor: pointer;
+}
+/* header----------------------------------- */
+/* main------------------------------------- */
+/* Main------------------------------------- */
+#sectiMain {
+  background: linear-gradient(45deg,
+  rgba(254,0,243,1) 0%,
+  rgba(255,0,73,1) 100%);
+}
+/* Main------------------------------------- */
+/*section Portafolio------------------------ */
+#sectiPorta {
+  background: linear-gradient(45deg,
+  rgba(93,1,254,1) 0%,
+  rgba(1,31,254,1) 100%);
+}
+/*section Portafolio------------------------ */
+/*section servicios------------------------ */
+#sectiServi {
+  background: linear-gradient(45deg,
+  rgba(1,255,245,1) 0%,
+  rgba(14,255,1,1)100%);
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+#sectiServi p {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 33.333%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 3px;
+}
+#sectiServi p :nth-child(3){
+  color: white;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+#sectiServi i {
+  position: absolute;
+  right: 10px;
+  font-size: 1.5em !important;
+  font-weight: 300 !important;
+  width: 44px;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color:rgba(1,255,245,1);
+}
+#sectiServi span {
+  padding: 10px;
+  width: 100%;
+  font-size: 1.5em;
+  color:rgba(1,255,245,1);
+  font-weight: normal;
+}
+/*section servicios------------------------ */
+/*section Contacto------------------------ */
+#sectiConta {
+  background: linear-gradient(45deg,
+  rgba(254,115,0,1)0%,
+  rgba(254,0,0,1) 100%);
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  /* position: relative; */
+}
+#sectiConta p {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 33.333%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 3px;
+}
+#sectiConta p :nth-child(3) {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 0px;
+  padding: 10px;
+  text-decoration: none;
+}
+#sectiConta i {
+  position: absolute;
+  right: 10px;
+  font-size: 1.5em !important;
+  font-weight: 300 !important;
+  width: 44px;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color:rgba(254,115,0,1);
+}
+#sectiConta span {
+  padding: 10px;
+  width: 100%;
+  font-size: 1.5em;
+  color:rgba(254,115,0,1);
+  font-weight: normal;
+}
+/*section Contacto------------------------ */
+
+main,section {
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 128px);
+  transition: all .5s;
+}
+main img {
+  width: 100%;
+  padding: 10px;
+}
+section h2 {
+  font-size: 2em;
+  padding: 10px;
+  text-align: center;
+  font-weight: normal !important;
+  color: white;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+main h2 {
+  font-size: 2em;
+  padding: 10px;
+  text-align: center;
+  font-weight: normal !important;
+  color: white;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+/* main------------------------------------- */
+
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
+footer i {
+  font-size: 1.5em !important;
+  font-weight: 300 !important;
+  width: 44px;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+footer span {
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+  font-size: 1.5em;
+  text-align: center;
+}
+/* js-------------------------------------- */
+.mov-right{
+  transform: translate(-100%);
+}
+.mov-center {
+  transform: translate(0%);
+}
+/* js-------------------------------------- */
