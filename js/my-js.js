@@ -1,3 +1,11 @@
+// eventos onclick
+document.getElementById("menuIcon").onclick = showMenu;
+
+document.getElementById("aMain").onclick = showMain;
+document.getElementById("aPorta").onclick = showPorta;
+document.getElementById("aServi").onclick = showServi;
+document.getElementById("aConta").onclick = showConta;
+
 // funcion para mostrar el menu y cambiar los iconos que se despliegan
 function showMenu() {
 	document.getElementById("menu").classList.toggle("mov-center");//Mostrar el menu en tipo flex con la clase css show
